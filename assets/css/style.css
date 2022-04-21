@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1650464187828-d380b8edbc0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(6, 5, 5, 0.637);
+    color: white;
+    justify-content: space-between;
+}
+
+h2 {
+    padding-left: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    margin-right: 30px;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
